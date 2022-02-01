@@ -5,7 +5,7 @@ let a = 5
 let b = a // this creates a NEW variable that hold the same value as a
 b++
 
-// console.log(b) // expected outcome: 6
+// console.log(a) // expected outcome: 6
 
 // ----------
 
@@ -69,7 +69,7 @@ anotherSpread.titles.first = 'Lord of nothing and no one at all'
 const veryCloned = JSON.parse(JSON.stringify(nestedObj))
 veryCloned.titles.first = 'Lord of the univerise, I guess...'
 
-// console.log('1: ', nestedObj, '2: ', veryCloned) // expected result: two objects with different values
+console.log('1: ', nestedObj, '2: ', veryCloned) // expected result: two objects with different values
 
 // This makes a stringified JSON out of the object, and then parses the JSON to create a new object
 // If it were to be a huuuge object, this will result in performance issues
