@@ -4,7 +4,7 @@
 - OOP gained popularity in the '70s with languages like Java and C++ (which is C with Classes)
 - FP started gaining popularity from the '90s.
 
-- OOP combines the data and functionality (methods) into an class/object
+- OOP combines the data and functionality (methods) into an class/object (incapuslation)
 - FP seperates the data and functionality
 
 ### Prototypal inheritance
